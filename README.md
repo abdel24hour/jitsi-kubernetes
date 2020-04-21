@@ -16,7 +16,7 @@ kubectl create secret generic jitsi-config -n jitsi --from-literal=JICOFO_COMPON
 
 #### create ssl certificate using Lets Encrypt 
 ```bash
-certbot -d linuxawy.co --manual --preferred-challenges dns certonly
+certbot -d clear.talktomira.com --manual --preferred-challenges dns certonly
 ```
 #### adding certificate to k8s secrets 
 ```bash
